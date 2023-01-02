@@ -1,0 +1,18 @@
+.list-item-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.arrow-mark {
+  height: 20px;
+  width: 20px;
+}
+.button {
+  background-color: #fff;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+}
