@@ -11,7 +11,7 @@ const SuggestionItem = props => {
   return (
     <li className="list-item-container">
       <p className="suggestion-text">{suggestion}</p>
-      <button onClick={onClickArrow()} className="button" type="button">
+      <button onClick={onClickArrow} className="button" type="button">
         <img
           src="https://assets.ccbp.in/frontend/react-js/diagonal-arrow-left-up.png"
           className="arrow-mark"
